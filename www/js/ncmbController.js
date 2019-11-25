@@ -1,12 +1,12 @@
 // This is a JavaScript file
 var ncmbController = {
   APPLICATION_KEY: appKey,
-  CLIENT_KEY: ClientKey,
+  CLIENT_KEY: clientKey,
 
   ncmb: null,
   currentUser: null,  // ログインしたユーザーのオブジェクトを格納
   screenSize: null,    // 画面サイズを格納
-  
+
   // 初期化
   init: function (screenSize) {
     var self = this;
